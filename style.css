@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:500');
+
+*{
+    margin: 0;
+    padding: 0;
+    user-select: none;
+}
+
+body{
+    background-image: url(./back1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    font-family: 'Comfortaa', cursive;
+}
+
+.container{
+    width: 550px;
+    height: 550px;
+    margin: 120px auto;
+    background: #fff;
+    opacity: 0.85;
+    border-radius: 5px;
+}
+
+.signup,
+.login{
+    width: 50%;
+    height: 60px;
+    float: left;
+    text-align: center;
+    line-height: 60px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.header{
+    padding: 0;
+    text-align: center;
+    color: #2999c5;
+    font-weight: bold;
+    font-size: large;
+}
+
+.signup-form,
+.login-form{
+    background: #fff;
+    opacity: 0.93;
+    box-sizing: border-box;
+    padding: 40px 40px;
+    clear: both;
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    height: fit-content;
+    border-radius: 5px;
+    
+}
+
+.input{
+    width: 100%;
+    box-sizing: border-box;
+    padding: 20px;
+    margin-top: 15px;
+    border: 2px solid #e9eaea;
+    color: #29292b;
+    font-size: 14px;
+    outline: none;
+    /* transition: all 0.5s ease; */
+    border-radius: 5px;
+}
+
+.input:focus{
+    border: 2px solid #2999c5;
+}
+
+.btn{
+    width: 100%;
+    background: #2999c5;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    color: white;
+    font-weight: bold;
+    font-size: large;
+    initial-letter-align: 1px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    margin-top: 15px;
+    border-radius: 5px;
+}
+
+.welcomeback{
+    width: 100%;
+    padding: 50px 0px;
+    text-align: center;
+    font-size: 40px;
+    color: #2999c5;
+}
+
+.error{
+    margin-bottom: 15px;
+    color: red;
+    font-size: small;
+}
